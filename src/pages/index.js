@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Kush Mevada</title>
         <meta name="description" content="Home Page" />
-        <link rel="icon" href="../../public/bitmoji.png" sizes="any" />
+        <link rel="icon" href="/bitmoji.png" />
       </Head>
       <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">

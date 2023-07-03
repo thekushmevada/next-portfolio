@@ -90,7 +90,7 @@ const articles = () => {
       <Head>
         <title>KM - Articles</title>
         <meta name="description" content="Articles Page" />
-        <link rel="icon" href="../../public/bitmoji.png" sizes="any" />
+        <link rel="icon" href="/bitmoji.png" />
       </Head>
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">

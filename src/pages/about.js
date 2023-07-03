@@ -42,7 +42,7 @@ const about = () => {
       <Head>
         <title>KM - About</title>
         <meta name="description" content="About Page" />
-        <link rel="icon" href="../../public/bitmoji.png" sizes="any" />
+        <link rel="icon" href="/bitmoji.png" />
       </Head>
       <TransitionEffect/>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
