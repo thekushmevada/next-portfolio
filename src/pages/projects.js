@@ -9,6 +9,7 @@ import startupproImg from "../../public/images/projects-new/startuppro.png";
 import oldPortfolioImg from "../../public/images/projects-new/old-portfolio.png"
 import bookstoreImg from "../../public/images/projects-new/bookstore.png"
 import diyafurImg from "../../public/images/projects-new/diya-furnitures.png" 
+import stockManImg from "../../public/images/projects-new/stock-management.png"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -26,7 +27,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         
         <FramerImage src={img} alt={title} className="w-full h-auto rounded-2xl lg:rounded-1xl" whileHover={{scale:1.05}} transition={{duration:0.2}}  priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" />
       </Link>
-      <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6 ">
+      <div className="w-1/2 my-4  flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6 ">
         <span className="text-primary font-medium text-xl dark:text-primaryDark xs:text-base ">{type}</span>
         <Link href={link} target={"_blank"} className="hover:underline underline-offset-2">
           <h2 className="my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-md">{title}</h2>
@@ -128,6 +129,15 @@ const projects = () => {
                 type="Featured Project"
                 github="https://github.com/thekushmevada/diyafurnitures"
                 img={diyafurImg}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+            <Project
+                title="Stock Management System"
+                link="https://stock-management-two.vercel.app/"
+                type="Project"
+                github="https://github.com/thekushmevada/stock-management"
+                img={stockManImg}
               />
             </div>
             {/* <div className="col-span-6">Project-1</div>
