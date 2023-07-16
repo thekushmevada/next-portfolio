@@ -10,12 +10,12 @@ const Footer = () => {
         <div className="flex items-center lg:py-2 ">
           Build With <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>{" "}
           by&nbsp;
-          <Link href="/" className="underline underline-offset-2">
+          <Link href="/" className="underline underline-offset-2 hover:text-primary dark:hover:text-primaryDark ">
             Kush Mevada
           </Link>
         </div>
         <Link
-          href="tel:9023805748"
+          href="tel:+919023805748"
           target={"_blank"}
           className="underline underline-offset-2"
         >
