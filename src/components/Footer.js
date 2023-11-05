@@ -17,7 +17,7 @@ const Footer = () => {
         <Link
           href="tel:+919023805748"
           target={"_blank"}
-          className="underline underline-offset-2"
+          className="underline underline-offset-2 hover:text-primary dark:hover:text-primaryDark"
         >
           Say Hello
         </Link>
